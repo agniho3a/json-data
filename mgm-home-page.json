@@ -1,0 +1,62 @@
+[
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/2211577914/RTC+Current+State+as+of+14-Feb-2023",
+        "label": "RTC Current State (as of 14-Feb-2023)",
+        "folder": "RTC",
+        "group": "Work"
+    },
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/EA/pages/2104721886/RTC+ATC+Product+-+Architecture+-+States+Current+-+Transition+-+Future",
+        "label": "RTC/ATC Product - Architecture - States (Current -> Transition -> Future)",
+        "folder": "RTC",
+        "group": "Work"
+    },
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/2213740752/RTC+NextGen+Architecture",
+        "label": "RTC NextGen Architecture (High Level)",
+        "folder": "RTC",
+        "group": "Work"
+    },
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/1313210563/CIG+RTC+Framework+Design+Architecture",
+        "label": "RTC Architecture (Legacy/High Level)",
+        "folder": "RTC",
+        "group": "Work"
+    },
+    {
+        "link": "https://dev.devtest.vegas/book-room/room/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75&checkIn=2023-11-16&checkOut=2023-11-19&guests=2&program=RPCD-v-TMLIFE-d-PROP-v-MV190",
+        "label": "Dev: F1 Room Package",
+        "folder": "F1 Test UI",
+        "group": "Work"
+    },
+    {
+        "link": "https://qa4.devtest.vegas/book-room/room/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75&checkIn=2023-11-16&checkOut=2023-11-19&guests=2&program=RPCD-v-TMLIFE-d-PROP-v-MV190",
+        "label": "QA4: F1 Room Package",
+        "folder": "F1 Test UI",
+        "group": "Work"
+    },
+    {
+        "link": "https://dev.devtest.vegas/book-room/room/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75&checkIn=2023-11-16&checkOut=2023-11-19&guests=2&program=RPCD-v-TMLIFE-d-PROP-v-MV190",
+        "label": "UAT: F1 Room Package",
+        "folder": "F1 Test UI",
+        "group": "Work"
+    },
+    {
+        "link": "https://preprod.devtest.vegas/book-room/room/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75&checkIn=2023-11-16&checkOut=2023-11-19&guests=2&program=RPCD-v-TMLIFE-d-PROP-v-MV190",
+        "label": "PreProd: F1 Room Package",
+        "folder": "F1 Test UI",
+        "group": "Work"
+    },
+    {
+        "link": "https://searchtool-uw-as-q.azurewebsites.net/home",
+        "label": "QA : CDP Search Tool",
+        "folder": "CDP Search Tool",
+        "group": "Work"
+    },
+    {
+        "link": "https://customersearchtool.mgmri.com/",
+        "label": "PROD : CDP Search Tool",
+        "folder": "CDP Search Tool",
+        "group": "Work"
+    }
+]
