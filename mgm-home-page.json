@@ -58,5 +58,23 @@
         "label": "PROD : CDP Search Tool",
         "folder": "CDP Search Tool",
         "group": "Work"
+    },
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/1801781489/CIG+RTC+Room+Booking+Service+Integration+New+API+Mapping",
+        "label": "RBS Event Details",
+        "folder": "Room Booking Emails",
+        "group": "Work"
+    },
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/MAR/pages/1578598624/Room+Booking+Transactional+Email",
+        "label": "RBS ACS EndPoints",
+        "folder": "Room Booking Emails",
+        "group": "Work"
+    },
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/MAR/pages/444072517/MPE%2BProperty%2BID",
+        "label": "RBS Property Mapping",
+        "folder": "Room Booking Emails",
+        "group": "Work"
     }
 ]
