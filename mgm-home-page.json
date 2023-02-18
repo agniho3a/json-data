@@ -76,5 +76,19 @@
         "label": "RBS Property Mapping",
         "folder": "Room Booking Emails",
         "group": "Work"
+    },
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/LS/overview?homepageId=1956217411",
+        "label": "Location Services Overview",
+        "folder": "Location Services",
+        "group": "Work"
+    },
+    {
+        "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/LS/pages/1956282369/Onboarding",
+        "label": "Location Services Onboarding",
+        "folder": "Location Services",
+        "group": "Work"
     }
+    
+    
 ]
