@@ -88,6 +88,12 @@
         "label": "Location Services Onboarding",
         "folder": "Location Services",
         "group": "Work"
+    },
+    {
+        "link": "http://www.google.com",
+        "label": "Google",
+        "folder": "Search",
+        "group": "Personal"
     }
     
     
