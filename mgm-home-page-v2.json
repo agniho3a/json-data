@@ -2,7 +2,7 @@
     "groups": [
         { 
             "name": "Work",
-            "collapsed": true,
+            "collapsed": false,
             "folders": [
                 {
                     "name": "RTC Architecture",
