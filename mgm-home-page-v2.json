@@ -1,0 +1,114 @@
+{
+    "groups": [
+        { 
+            "name": "Work",
+            "collapsed": false,
+            "folders": [
+                {
+                    "name": "RTC Architecture",
+                    "collapsed": false,
+                    "links": [
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/2211577914/RTC+Current+State+as+of+14-Feb-2023",
+                            "label": "RTC Current State (as of 14-Feb-2023)"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/EA/pages/2104721886/RTC+ATC+Product+-+Architecture+-+States+Current+-+Transition+-+Future",
+                            "label": "RTC/ATC Product - Architecture - States (Current -> Transition -> Future)"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/2213740752/RTC+NextGen+Architecture",
+                            "label": "RTC NextGen Architecture (High Level)"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/1313210563/CIG+RTC+Framework+Design+Architecture",
+                            "label": "RTC Architecture (Legacy/High Level)"
+                        }
+                    ]
+                },
+                {
+                    "name": "F1 Test UI",
+                    "collapsed": false,
+                    "links": [
+                        {
+                            "link": "https://dev.devtest.vegas/book-room/room/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75&checkIn=2023-11-16&checkOut=2023-11-19&guests=2&program=RPCD-v-TMLIFE-d-PROP-v-MV190",
+                            "label": "Dev: F1 Room Package"
+                        },
+                        {
+                            "link": "https://qa4.devtest.vegas/book-room/room/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75&checkIn=2023-11-16&checkOut=2023-11-19&guests=2&program=RPCD-v-TMLIFE-d-PROP-v-MV190",
+                            "label": "QA4: F1 Room Package"
+                        },
+                        {
+                            "link": "https://dev.devtest.vegas/book-room/room/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75&checkIn=2023-11-16&checkOut=2023-11-19&guests=2&program=RPCD-v-TMLIFE-d-PROP-v-MV190",
+                            "label": "UAT: F1 Room Package"
+                        },
+                        {
+                            "link": "https://preprod.devtest.vegas/book-room/room/?region=las-vegas&resort=44e610ab-c209-4232-8bb4-51f7b9b13a75&checkIn=2023-11-16&checkOut=2023-11-19&guests=2&program=RPCD-v-TMLIFE-d-PROP-v-MV190",
+                            "label": "PreProd: F1 Room Package"
+                        }
+                    ]
+                },
+                {
+                    "name": "CDP Search Tool",
+                    "collapsed": true,
+                    "links": [
+                        {
+                            "link": "https://searchtool-uw-as-q.azurewebsites.net/home",
+                            "label": "QA : CDP Search Tool"
+                        },
+                        {
+                            "link": "https://customersearchtool.mgmri.com/",
+                            "label": "PROD : CDP Search Tool"
+                        }
+                    ]
+                },
+                {
+                    "name": "Room Booking Emails",
+                    "collapsed": false,
+                    "links": [
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/1801781489/CIG+RTC+Room+Booking+Service+Integration+New+API+Mapping",
+                            "label": "RBS Event Details"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/MAR/pages/1578598624/Room+Booking+Transactional+Email",
+                            "label": "RBS ACS EndPoints"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/MAR/pages/444072517/MPE%2BProperty%2BID",
+                            "label": "RBS Property Mapping",
+                        }
+                    ]
+                },
+                {
+                    "name": "Location Services",
+                    "collapsed": false,
+                    "links": [
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/LS/overview?homepageId=1956217411",
+                            "label": "Location Services Overview"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/LS/pages/1956282369/Onboarding",
+                            "label": "Location Services Onboarding"
+                        }
+                    ]
+                },
+                {
+                    "name": "Misc",
+                    "collapsed": true,
+                    "links": [
+                        {
+                            "link": "https://mgmresorts.sharepoint.com/:x:/r/sites/CustomerInsightsGrowth/_layouts/15/doc2.aspx?action=edit&sourcedoc=%7B8EF97269-A192-4392-9653-53323E41E3E6%7D&cid=13572570-bddd-46ee-afff-e82e1d8328ba",
+                            "label": "3-3-3"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/~356476296/pages/1827569865/CIG+Weekly+Status",
+                            "label": "Weekly Status"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
