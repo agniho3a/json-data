@@ -95,6 +95,16 @@
                     ]
                 },
                 {
+                    "name": "CMS",
+                    "collapsed": true,
+                    "links": [
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/MAR/pages/2180153740/Architecture+Drawings",
+                            "label": "CMS Architecture Diagrams (by Subir)"
+                        }
+                    ]
+                },
+                {
                     "name": "Misc",
                     "collapsed": true,
                     "links": [
