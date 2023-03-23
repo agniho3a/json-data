@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="icon" type="image/x-icon" href="favicon-doodle-16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home</title>
+    <script>
+        let config = {
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "body": null,
+            "method": "GET",
+            "mode": "cors",
+            "credentials": "omit",
+            "cache": "no-cache"
+        };
+
+        // Fetch data from the URL 
+        fetch('data/mgm-home-page-v2.json?dt=' + new Date().getTime(), config)
+            .then((response) => response.json())
+            .then((data) => {
+                renderPage(data);
+            });
+        
+        // Function to collapse group div and children
+        collapseGroupDiv = (groupDiv, collapsedState) => {
+            collapsedState?groupDiv.classList.add("collapsed"):groupDiv.classList.remove("collapsed");
+
+            let childrenArr = Array.from(groupDiv.children);
+            childrenArr.forEach(folderDiv => {
+                // Collapsing 'folder' divs
+                collapsedState?folderDiv.classList.add("collapsed"):folderDiv.classList.remove("collapsed");
+
+                // Collapsing 'links' divs under 'folders'
+                let linksDivForGroup = folderDiv.children[0];
+                collapsedState?linksDivForGroup.classList.add("collapsed"):linksDivForGroup.classList.remove("collapsed");
+            });
+        };
+
+        // Function to collapse folder div and children
+        collapseFolderDiv = (folderDiv, collapsedState) => {
+            collapsedState?folderDiv.classList.add("collapsed"):folderDiv.classList.remove("collapsed");
+
+            // Collapsing 'links' divs under 'folders'
+            let linksDivForGroup = folderDiv.children[0];
+            collapsedState?linksDivForGroup.classList.add("collapsed"):linksDivForGroup.classList.remove("collapsed");
+        };
+
+        // Render the page with the page data
+        renderPage = (pageData) => {
+            let isGroupCollapsed  = false;
+            let isFolderCollapsed = false;
+
+            pageData.groups.forEach((group) => {
+                let groupDiv = document.createElement("div");
+                groupDiv.setAttribute("class", "group");
+                groupDiv.innerHTML = group.name; 
+
+                let span = document.createElement("span");
+                
+                isGroupCollapsed = group.collapsed;
+                
+                // Event Listener for Expand/Collapse Group
+                groupDiv.addEventListener("click", (event) => {
+                    let groupDiv = event.target;
+                    if(groupDiv.classList.contains("collapsed")) {
+                        groupDiv.classList.remove("collapsed");
+                    } else {
+                        groupDiv.classList.add("collapsed");
+                    }
+
+                    let groupCollapsed = groupDiv.classList.contains("collapsed");
+                    let childrenArr = Array.from(event.target.children);
+
+                    childrenArr.forEach(folderDiv => {
+                        if(folderDiv.classList.contains("folder")) {
+                            // Collapsing 'folder' divs
+                            groupCollapsed?folderDiv.classList.add("collapsed"):folderDiv.classList.remove("collapsed");
+
+                            // Collapsing 'links' divs under 'folders'
+                            let linksDivForGroup = folderDiv.children[0];
+                            groupCollapsed?linksDivForGroup.classList.add("collapsed"):linksDivForGroup.classList.remove("collapsed");
+                        }
+                    });
+                });
+
+                // Add group to content div
+                document.getElementById("content").appendChild(groupDiv);
+
+                // Iterate over 'Folders'
+                group.folders.forEach((folder) => {
+                    var folderDiv = document.createElement("div");
+                    folderDiv.setAttribute("class", "folder");
+                    folderDiv.innerHTML = folder.name;
+                    
+                    isFolderCollapsed = folder.collapsed;
+
+                    // Add event listener for expand/collapse
+                    folderDiv.addEventListener("click", (event) => {
+                        let linksDiv = event.target.children[0];
+                        if (linksDiv.classList.contains("collapsed")) {
+                            event.target.classList.remove("collapsed");
+                            linksDiv.classList.remove("collapsed");
+                        } else {
+                            event.target.classList.add("collapsed");
+                            linksDiv.classList.add("collapsed");
+                        }
+                        
+                        // Stop eevnt from bubbling up
+                        event.stopPropagation();
+                    });
+                    
+
+                    // Add folder to group
+                    groupDiv.appendChild(folderDiv);
+
+                    // Create links
+                    let linksDiv = document.createElement("div");
+                    linksDiv.setAttribute("class", "links");
+
+                    folder.links.forEach((ele) => {
+                        let link = document.createElement("div");
+                        let tempA = document.createElement("a");
+                        tempA.href = ele.link;
+                        tempA.text = ele.label;
+
+                        link.appendChild(tempA);
+                        linksDiv.append(link);
+
+                        // Append link to folder
+                        folderDiv.appendChild(linksDiv);
+                    });
+                    if(isFolderCollapsed) {
+                        collapseFolderDiv(folderDiv, true);
+                    }
+                });
+
+                if(isGroupCollapsed) {
+                    collapseGroupDiv(groupDiv, true);
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <div id="content"></div>
+    <div class="footer">Powered By:<a href="https://github.com/agniho3a/json-data/blob/main/mgm-home-page-v2.json">https://github.com/agniho3a/json-data/blob/main/mgm-home-page-v2.json</a></div>
+</body>
+</html>

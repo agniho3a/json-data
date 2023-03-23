@@ -1,0 +1,87 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    padding: 5px;
+    font-size: 13px;
+}
+
+.heading {
+    background-color: #cecece;
+}
+
+.group {
+    font-size: 17px;
+    padding-left: 10px;
+    font-weight: bolder;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    cursor: pointer;
+}
+
+.folder {
+    font-size: 15px;
+    margin-left: 15px;
+    padding-top: 5px;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+a, a:visited {
+    color:cornflowerblue;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.links a:before {
+    content: "■";
+    margin-right: 6px;
+}
+
+.folder:before {
+    font-size: 12px;
+    content: "▽";
+    margin-right: 6px;
+}
+
+.folder.collapsed:before {
+    font-size: 12px;
+    content: "▷";
+    margin-right: 6px;
+}
+
+
+.links.collapsed {
+    display: none;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: silver;
+    color: white;
+    text-align: center;
+    animation: color-me-in 5s;
+}
+
+@keyframes hide-me {
+    0% {
+      font-size: 15px;
+    }
+    /* Adding a step in the middle */
+    50% {
+      font-size: 5px;
+    }
+    100% {
+      font-size: 0px;
+    }
+}
