@@ -109,6 +109,16 @@
                     ]
                 },
                 {
+                    "name": "LiveSite",
+                    "collapsed": true,
+                    "links": [
+                        {
+                            "link": "http://app.powerbi.com/groups/me/apps/85b33836-458e-400c-b144-8f4374fc18c1/reports/6a190720-413f-4a4e-92f6-ed244526e38e/ReportSection0aca6b083381a25ba0be?ctid=ddb8592f-ed74-4329-bfd2-571b7c34699e",
+                            "label": "Weekly LiveSite Status Report"
+                        }
+                    ]
+                },
+                {
                     "name": "Misc",
                     "collapsed": true,
                     "links": [
