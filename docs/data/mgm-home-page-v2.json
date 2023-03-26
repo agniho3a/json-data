@@ -129,6 +129,64 @@
                         {
                             "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/~356476296/pages/1827569865/CIG+Weekly+Status",
                             "label": "Weekly Status"
+                        },
+                        {
+                            "link": "https://mgmresorts.okta.com/app/UserHome",
+                            "label": "Okta Apps Dashboard"
+                        },
+                        {
+                            "link": "https://wd5.myworkday.com/mgmresorts/d/home.htmld",
+                            "label": "Workday"
+                        },
+                        {
+                            "link": "https://wd5.myworkday.com/mgmresorts/learning",
+                            "label": "Workday Learning"
+                        }
+                    ]
+                },
+                 {
+                    "name": "GitHub",
+                    "collapsed": true,
+                    "links": [
+                        {
+                            "link": "https://github.com/MGMResorts/cig-rtc-fw-fd",
+                            "label": "RTF Front Door"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/cig-rtc-bizproc",
+                            "label": "RTC Biz Proc"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/cig-rtc-transformer-fa",
+                            "label": "RTC Transformer"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/cig-rtc-destination-message",
+                            "label": "RTC Dispatcher"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/cig-rtc-audit-log",
+                            "label": "RTC Audit Log"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/cig-rtc-rbs-common",
+                            "label": "RTC RBS Common"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/cig-rtc-sbs-common",
+                            "label": "RTC RBS Common"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/rtc-livesite-common",
+                            "label": "RTC LiveSite Common"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/cig-rtc-common",
+                            "label": "CIG RTC Common"
+                        },
+                        {
+                            "link": "https://github.com/MGMResorts/cigrtc-atc-marketability",
+                            "label": "ATC Micro Service"
                         }
                     ]
                 }
