@@ -233,7 +233,7 @@
                         {
                             "label": "RTC Prod Resource Group",
                             "link": "https://portal.azure.com/#@MGMResorts.onmicrosoft.com/resource/subscriptions/b2a26042-2b0c-4ed4-b52a-c9c8eef50d8b/resourceGroups/cigrtc-uw-rg-p/overview"
-                        },
+                        }
                     ]
                 }
             ]
