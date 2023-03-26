@@ -189,6 +189,52 @@
                             "label": "ATC Micro Service"
                         }
                     ]
+                },
+                {
+                    "name": "Azure",
+                    "collapsed": true,
+                    "links":[
+                        {
+                            "label": "Approve Requests",
+                            "link": "https://portal.azure.com/?Microsoft_Azure_PIMCommon=true#blade/Microsoft_Azure_PIMCommon/ApproveRequestMenuBlade/azurerbac"
+                        },
+                        {
+                            "label": "APIM Dev",
+                            "link": "https://portal.azure.com/#@MGMResorts.onmicrosoft.com/resource/subscriptions/a07a1ed6-22e4-4781-b58e-aa1685bc93b2/resourceGroups/digengAPIM-uw-rg-d/providers/Microsoft.ApiManagement/service/dignengAPIM-uw-apim-d/overview"
+                        },
+                        {
+                            "label": "SRE",
+                            "link": "https://portal.azure.com/#@MGMResorts.onmicrosoft.com/resource/subscriptions/93dafe68-4af1-4c4f-a7fe-0aebcaee3eed/resourceGroups/EventLogProcessing/providers/Microsoft.Kusto/clusters/mgmdv1/databases/service_telemetry/data_explorer"
+                        },
+                        {
+                            "label": "DevOps",
+                            "link": "https://dev.azure.com/MGMResortsDigitalEngineering/"
+                        },
+                        {
+                            "label": "APIM Prod",
+                            "link": "https://portal.azure.com/#@MGMResorts.onmicrosoft.com/resource/subscriptions/a07a1ed6-22e4-4781-b58e-aa1685bc93b2/resourceGroups/digengapim-uw-rg-p/providers/Microsoft.ApiManagement/service/dignengAPIM-uw-apim-p/overview"
+                        },
+                        {
+                            "label": "Azure Portal",
+                            "link": "https://portal.azure.com/#home"
+                        },
+                        {
+                            "label": "RTC Dev Resource Group",
+                            "link": "https://portal.azure.com/#@MGMResorts.onmicrosoft.com/resource/subscriptions/3429a2df-1acc-4e8a-858b-58d3d612a7b0/resourceGroups/cigrtc-uw-rg-d/overview"
+                        },
+                        {
+                            "label": "RTC QA Resource Group",
+                            "link": "https://portal.azure.com/#@MGMResorts.onmicrosoft.com/resource/subscriptions/3429a2df-1acc-4e8a-858b-58d3d612a7b0/resourceGroups/cigrtc-uw-rg-q/overview"
+                        },
+                        {
+                            "label": "RTC PreProd Resource Group",
+                            "link": "https://portal.azure.com/#@MGMResorts.onmicrosoft.com/resource/subscriptions/3429a2df-1acc-4e8a-858b-58d3d612a7b0/resourceGroups/cigrtc-uw-rg-q/overview"
+                        },
+                        {
+                            "label": "RTC Prod Resource Group",
+                            "link": "https://portal.azure.com/#@MGMResorts.onmicrosoft.com/resource/subscriptions/b2a26042-2b0c-4ed4-b52a-c9c8eef50d8b/resourceGroups/cigrtc-uw-rg-p/overview"
+                        },
+                    ]
                 }
             ]
         }
