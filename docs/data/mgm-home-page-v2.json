@@ -258,6 +258,40 @@
                             "label": "Streak Goal Expiration Event"
                         }
                     ]
+                },
+                {
+                    "name": "EEBB | Enterprise Event Backbone",
+                    "collapsed": true,
+                    "links": [
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/EA/pages/2069823568/Event+Backbone+Charter",
+                            "label": "Event Backbone Charter"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/DVE/pages/1842577504/Events",
+                            "label": "Events"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/DVE/pages/2151547068/Steps+for+publishing+to+Event+Backbone",
+                            "label": "Steps to Publish Events to EE Backbone"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/DVE/pages/2157445151/Steps+for+consuming+from+Event+Backbone",
+                            "label": "Steps to Consume Events from EE Backbone"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/DVE/pages/2156986388/Designing+Your+Events",
+                            "label": "Designing Your Events"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/DVE/pages/2023425309/Using+private+Maven+NuGet+Repositories",
+                            "label": "Using Private Maven/NuGet Repositories"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/DVE/pages/2156888069/Developer+Pages",
+                            "Developer Pages (May contain some of the above links)"
+                        }
+                    ]
                 }
             ]
         }
