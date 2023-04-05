@@ -290,6 +290,10 @@
                         {
                             "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/DVE/pages/2156888069/Developer+Pages",
                             "label": "Developer Pages (May contain some of the above links)"
+                        },
+                        {
+                            "link": "https://ubiquitous-funicular-d0c6b022.pages.github.io/",
+                            "label": "MGM Event Infrastructure Documentation"
                         }
                     ]
                 }
