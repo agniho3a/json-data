@@ -296,6 +296,24 @@
                             "label": "MGM Event Infrastructure Documentation"
                         }
                     ]
+                },
+                {
+                    "name": "Apigee",
+                    "collapsed": true,
+                    "links": [
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/APIGEE/pages/715882891/Deploy+To+Apigee+Edge",
+                            "label": "Deploy To Apigee Edge"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/APIGEE/pages/1926957041/Custom+Deployment",
+                            "label": "Custom Deployment"
+                        },
+                        {
+                            "link": "https://mgmdigitalventures.atlassian.net/wiki/spaces/APIGEE/pages/1365934251/Instructions+to+add+Incoming+IP+Restrictions+for+Azure+Apps",
+                            "label": "Add Incoming IP Restrictions for Azure Apps"
+                        }
+                    ]
                 }
             ]
         }
