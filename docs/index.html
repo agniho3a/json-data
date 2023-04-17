@@ -23,7 +23,7 @@
         };
 
         // Fetch data from the URL 
-        fetch('https://script.google.com/macros/s/AKfycbySy5cVLwY2wZGLsY71k-gfErkslyuZ4soGIjdWeoM1APTYdVKM_ddSTjf70d5b6ZCd/exec', config)
+        fetch('data/mgm-home-page-v2.json?dt=' + new Date().getTime()', config)
             .then((response) => response.json())
             .then((data) => {
                 renderPage(data);
