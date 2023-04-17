@@ -23,7 +23,7 @@
         };
 
         // Fetch data from the URL 
-        fetch('data/mgm-home-page-v2.json?dt=' + new Date().getTime()', config)
+        fetch('data/mgm-home-page-v2.json?dt=' + new Date().getTime(), config)
             .then((response) => response.json())
             .then((data) => {
                 renderPage(data);
